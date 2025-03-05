@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 # CHECK IF XCODE IS INSTALLED
 if [ ! -x "$(command -v xcrun)" ]; then
   echo -e "\n(*) xcrun command not found. Please check your Xcode installation\n"
